@@ -1,0 +1,66 @@
+*{
+    margin:0;
+}
+body{
+    background-color:rgb(254, 142, 142);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#container{
+    padding:20px;
+    height:350px;
+    width:300px;
+    background-color:white;
+    border-radius:10px;
+    margin-top:5%;
+}
+#AmountValue{
+    width:100%;
+    border:1px solid grey;
+    height:3em;
+    border-radius:10px;
+}
+#labelling{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:30px;
+    height:50px;
+}
+#logo{
+    display:flex;
+    align-items:center;
+}
+#flag1,#flag2{
+    height:30px;
+    width:30px;
+    size:cover;
+}
+#from,#to{
+    border:none;
+    outline:none;
+}
+h1{
+    margin-bottom:20px;
+}
+#info1,#info2{
+    width:100px;
+    border:1px solid grey;
+    display:flex;
+    border-radius:5px ;
+}
+#result{
+    margin-top:30px;
+    font-weight:900;
+}
+#btn{
+    margin-top:30px;
+    height:40px;
+    width:100%;
+    background-color:purple;
+    color:white;
+    text-align:center;
+    font-size:1rem;
+    border-radius:10px;
+}
